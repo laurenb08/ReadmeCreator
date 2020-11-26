@@ -37,19 +37,23 @@ const questions = [{
     type: "input",
     message: "Please list any licences for open source that you used:",
     name: "license",
-}];
-
+}]
     .then(response => {
-    console.log(response.projectName);
-    console.log(response.description);
-    console.log(response.visuals);
-    console.log(response.installation);
-    console.log(response.usage);
-    console.log(response.support);
-    console.log(response.roadmap);
-    console.log(response.contributions);
-    console.log(response.license);
-});
+        console.log(response.projectName);
+        console.log(response.description);
+        console.log(response.visuals);
+        console.log(response.installation);
+        console.log(response.usage);
+        console.log(response.support);
+        console.log(response.roadmap);
+        console.log(response.contributions);
+        console.log(response.license);
+
+        fs.writeFile("readme.md", JSON.stringify(response), (err) => {
+            if (err) console.log("failed to write file");
+            else console.log("Wrote file");
+        })
+    });
 
 
 // array of questions for user
@@ -58,10 +62,8 @@ const questions = [{
 // ];
 
 // function to write README file
-function writeToFile("readme.md", JSON.stringify(response), (err) => {
-    if (err) console.log("failed to write file");
-    else console.log("Wrote file");
-})
+// function writeToFile(fileName, data) {
+// }
 
 // function to initialize program
 function init() {
