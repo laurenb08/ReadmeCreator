@@ -1,1 +1,39 @@
-{"projectName":"readmefile","description":"makes it possible for a user to create a readme file using the command-line","visuals":"lskdjflskdjflskdj, lksjdlfkjsdlkfj","installation":"lnklnmdlskmclksjdlksnaglkjealkjrleajkrljkefalwnev;oawiejhatlkjlskjtlaknvleajkfdlkj","usage":"lskjlkej lkajflkj lkajsdf ;lakj;lkjera alkjea","support":"to me!","roadmap":"none yet","contributions":"yes i am and its free to add to","license":"none"}
+# **git status**
+
+## **Description**
+
+lksdjfsldj
+
+## **Links**
+
+[View the updated site by clicking here](lskdjflsdjf)
+
+[View the GitHub Repo for this project here](lksdjflskdjf)
+
+## **Installation Instructions**
+
+sldkfjsldkjf
+
+## **Usage**
+
+lksdjflskdjf
+
+## **Visuals**
+
+![GIF](lkdjflskdjf)
+
+## **Roadmap for Future Development**
+
+lksdjflskdjf
+
+## **Contributions**
+
+lksdjflksjdf
+
+## **Support**
+
+If you need support, please contact lksjdlfkjsdlfkj
+
+## **Licences**
+
+lksdjflkjsdf
