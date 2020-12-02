@@ -10,7 +10,7 @@ enter the terminal and type "node index.js" to initiate the questions
 
 ## **Video**
 
-![](https://github.com/laurenb08/ReadmeCreator/raw/main/ReadMeGenerator.mp4)
+![](https://github.com/laurenb08/ReadmeCreator/raw/main/ReadMeGenerator.gif)
 
 ## **Questions**
 
