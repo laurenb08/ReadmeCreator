@@ -12,10 +12,6 @@ inquirer
         name: "description",
     }, {
         type: "input",
-        message: "Please enter a Table of Contents",
-        name: "tableOfContents",
-    }, {
-        type: "input",
         message: "Please give instructions for installation:",
         name: "installation",
     }, {
@@ -36,29 +32,39 @@ inquirer
         name: "license",
     }, {
         type: "input",
-        message: "Who can the user contact if they have questions?",
-        name: "questions",
+        message: "What is the link to your GitHub Repo?",
+        name: "gitHubRepo",
+    }, {
+        type: "input",
+        message: "What is your email?",
+        name: "email",
     }])
     .then(response => {
         console.log(response.projectName);
         console.log(response.description);
-        console.log(response.tableOfContents);
         console.log(response.installation);
         console.log(response.usage);
         console.log(response.tests);
         console.log(response.contributions);
         console.log(response.license);
-        console.log(response.questions);
+        console.log(response.email);
+        console.log(response.gitHubRepo);
 
         let page = `# **${response.projectName}**
+
+## **Table of Contents**
+
+- [**Description**](#description)
+- [**Installation Instructions**](#installation-instructions)
+- [**Usage**](#usage)
+- [**Tests**](#tests)
+- [**Contributions**](#contributions)
+- [**Licences**](#licences)
+- [**Questions**](#questions)
 
 ## **Description**
 
 ${response.description}
-
-## **Table of Contents**
-
-${response.tableOfContents}
 
 ## **Installation Instructions**
 
@@ -80,9 +86,9 @@ ${response.contributions}
 
 ${response.license}
 
-## **Contributions**
+## **Questions**
 
-Please contact ${response.questions} if you have any questions.`
+Please contact <${response.email}> if you have any questions or [View the updated site by cliking here](${response.gitHubRepo}).`
 
         fs.writeFile("readme.md", page, (err) => {
             if (err) console.log("failed to write file");

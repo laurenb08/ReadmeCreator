@@ -1,39 +1,39 @@
-# **git status**
+# **Readme Generator**
+
+## **Table of Contents**
+
+- [**Description**](#description)
+- [**Installation Instructions**](#installation-instructions)
+- [**Usage**](#usage)
+- [**Tests**](#tests)
+- [**Contributions**](#contributions)
+- [**Licences**](#licences)
+- [**Questions**](#questions)
 
 ## **Description**
 
-lksdjfsldj
-
-## **Links**
-
-[View the updated site by clicking here](lskdjflsdjf)
-
-[View the GitHub Repo for this project here](lksdjflskdjf)
+This will help you create a quality readme file
 
 ## **Installation Instructions**
 
-sldkfjsldkjf
+enter the terminal and type "node index.js" to initiate the questions
 
 ## **Usage**
 
-lksdjflskdjf
+This will help developers to create a quality readme file in less time
 
-## **Visuals**
+## **Tests**
 
-![GIF](lkdjflskdjf)
-
-## **Roadmap for Future Development**
-
-lksdjflskdjf
+I ran tests after every change to the code
 
 ## **Contributions**
 
-lksdjflksjdf
-
-## **Support**
-
-If you need support, please contact lksjdlfkjsdlfkj
+I am not open to contributions
 
 ## **Licences**
 
-lksdjflkjsdf
+I did not use any licenses
+
+## **Questions**
+
+Please contact <laurenb08@gmail.com> if you have any questions or [View the updated site by cliking here](https://github.com/laurenb08/ReadmeCreator).
